@@ -1,0 +1,140 @@
+body {
+  background: #ffcc66;
+  /* background: #ffd700; */
+  font-size: 16px;
+  font-weight: bold;
+  font-family: Arial, sans-serif;
+}
+
+main {
+  width: 700px;
+  background: #ffbb33;
+  border-radius: 12px;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  margin: 10px auto 5px;
+  border: 10px solid #8a5c00;
+  user-select: none;
+}
+
+.card img {
+  width: 90px;
+  height: 110px;
+  margin-bottom: 4px;
+}
+
+.push {
+  cursor: pointer;
+  width: 90px;
+  height: 32px;
+  background: #ef454a;
+  border-radius: 16px;
+  text-align: center;
+  line-height: 32px;
+  box-shadow: 0 4px 0 #d1483e;
+  font-size: 14px;
+  color: #fff;
+  user-select: none;
+}
+
+.field {
+  width: 150px;
+  height: 200px;
+  background: #ffbb33;
+  border-radius: 12px;
+  margin: 50px auto 5px;
+  border: 10px solid #808000;
+}
+
+.fieldcard img {
+  position: absolute;
+  width: 150px;
+  height: 200px;
+}
+
+.inactive {
+  opacity: 0.5;
+}
+
+.enemy {
+  width: 100px;
+  height: 150px;
+  background: #ffbb33;
+  margin: 10px auto 5px;
+  border-radius: 12px;
+  border: 8px solid #808000;
+}
+
+.enemycard img {
+  width: 100px;
+  height: 150px;
+  position: absolute;
+}
+
+#result {
+  position: absolute;
+  width: 300px;
+  background: #fff;
+  margin: 0 auto;
+  border-radius: 5px;
+  top: -500px;
+  /* left: 0;
+  right: 0; */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  padding: 10px;
+  transition: 0.4s ease-out;
+}
+
+#result.show {
+  top: 100px;
+  transition: 0.4s ease-out;
+}
+
+#result > p {
+  font-size: 24px;
+}
+
+#reset {
+  cursor: pointer;
+  display: block;
+  background: #3498db;
+  padding: 8px;
+  margin: 15px 80px;
+  border-radius: 13px;
+  color: #fff;
+  /* text-decoration: none; */
+  user-select: none;
+  text-align: center;
+  box-shadow: 0 4px 0 #2880b9;
+}
+
+#resultImage {
+  width: 250px;
+  height: 250px;
+}
+
+#tonegawa {
+  position: absolute;
+  width: 250px;
+  background: #000;
+  margin: 0 auto;
+  border-radius: 5px;
+  top: -500px;
+  left: 700px;
+  right: 0;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  padding: 5px;
+  transition: 0.4s ease-out;
+}
+
+#tonegawa.show {
+  top: 200px;
+}
+
+#tonegawaImage {
+  width: 250px;
+  height: 200px;
+}
